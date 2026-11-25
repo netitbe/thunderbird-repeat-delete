@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Repeat Delete",
-  "version": "1.0b1",
+  "version": "1.0b2",
   "description": "Restores deleting several messages by holding down the Delete or Backspace key (behaviour removed in Thunderbird 128).",
   "browser_specific_settings": {
     "gecko": {
