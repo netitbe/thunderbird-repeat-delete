@@ -1,0 +1,43 @@
+{
+  "manifest_version": 2,
+  "name": "Repeat Delete",
+  "version": "1.0b1",
+  "description": "Restores deleting several messages by holding down the Delete or Backspace key (behaviour removed in Thunderbird 128).",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "repeat-delete@netitbe.be",
+      "strict_min_version": "140.0",
+      "strict_max_version": "140.*"
+    }
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "experiment_apis": {
+    "repeatDelete": {
+      "schema": "schema.json",
+      "parent": {
+        "scopes": [
+          "addon_parent"
+        ],
+        "paths": [
+          [
+            "repeatDelete"
+          ]
+        ],
+        "script": "implementation.js"
+      }
+    }
+  },
+  "icons": {
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "64": "icons/icon-64.png",
+    "96": "icons/icon-96.png"
+  },
+  "author": "Netitbe SPRL, Laurent Lasudry <laurent@netitbe.be>",
+  "license": "GPL-2.0-only",
+  "homepage_url": "https://github.com/netitbe/thunderbird-repeat-delete"
+}

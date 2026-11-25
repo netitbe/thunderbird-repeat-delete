@@ -1,0 +1,14 @@
+[
+  {
+    "namespace": "repeatDelete",
+    "functions": [
+      {
+        "name": "start",
+        "type": "function",
+        "async": true,
+        "description": "Enables repeated deletion in all about:3pane windows, present and future.",
+        "parameters": []
+      }
+    ]
+  }
+]
