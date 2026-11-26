@@ -1,6 +1,5 @@
-=============
-Repeat Delete
-=============
+.. image:: docs/social-preview.png
+   :alt: Repeat Delete
 
 A tiny Thunderbird add-on that **restores deleting several messages by holding
 down the Delete or Backspace key**, as it worked before Thunderbird 128.
